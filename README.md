@@ -14,6 +14,10 @@ I have created a Resume Classification model which is trained on Logistic Regres
 - Install requirements.txt file - `pip install -r requirements.txt`
 - Run the `main.py`.
 
+## Python Version
+
+`python 3.7.4`
+
 ## Guide
 
 The project contains main.py file which is used to run all the functionality. We also have a config file where the path for various purpose is defined.
