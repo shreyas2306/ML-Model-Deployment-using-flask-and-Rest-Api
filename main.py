@@ -56,11 +56,11 @@ def api():
         
         if request.method == 'POST':
             
-            # for secure filenames. Read the documentation.
+            
             file = request.files['myfile']
             filename = secure_filename(file.filename) 
 
-            # os.path.join is used so that paths work in every operating system
+            
             file.save(os.path.join(UPLOAD_FOLDER, filename))
 
             df = predict(UPLOAD_FOLDER, cf.MODEL_PATH)
