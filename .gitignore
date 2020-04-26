@@ -1,0 +1,17 @@
+#Folder
+source/database/
+resource/__pycache__/
+.vscode/
+
+
+#Files
+.DS_Store
+resource/__pycache__/*
+source/__pycache__/
+source/Rest_Api/__pycache__/*
+source/main/__pycache__/*
+source/main/prediction/__pycache__/*
+source/main/training/__pycache__/*
+source/main/utils/__pycache__/*
+
+

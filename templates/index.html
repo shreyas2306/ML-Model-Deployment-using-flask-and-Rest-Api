@@ -1,0 +1,75 @@
+<!doctype html>
+
+<head>
+    <style>
+        body { 
+          background: rgb(67, 133, 9) url("img_tree.gif") no-repeat fixed center; 
+        }
+        .button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: rgb(197, 195, 94);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 10px;
+  padding: 20px;
+  width: 80px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-right:105px
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+        
+    </style>
+
+</head>
+<body>
+
+    
+   
+   
+
+<div style="text-align:center; background-color: rgb(191, 201, 204); width: auto;">
+    <h1 style="text-align:center; color:rgb(26, 27, 26); margin-right:55px">Resume Classification</h1>
+    <br> <br> <br>
+
+    <form style= "color: cornsilk" action="getfile" method="POST" enctype="multipart/form-data">
+        <p style="color: rgb(44, 4, 37); font-size: medium;">Project file path: <input type="file" name="myfile"><br></p> 
+        <br>
+        <input class="button" style="vertical-align:middle" type="submit" value="Submit">
+    </form>
+
+    <br><br><br>
+
+    <p style="color: rgba(136, 42, 13, 0.623); font-size: medium; margin-right:95px">{{prediction_text}}</p>
+
+</div>
+
+</body>
