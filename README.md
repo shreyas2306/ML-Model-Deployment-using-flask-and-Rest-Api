@@ -41,6 +41,9 @@ Our focus is on running the last two function i.e. rest-api and api.
 <img src="resource/pic/Screenshot 4.png" width = "450">
 
 - Upload the resume and hit the submit button, you will find the prediction below.
+
+**NOTE** Please create a upload folder and add the path in config file.
+
 <img src="resource/pic/Screenshot 5.png" width = "450">
 
 
