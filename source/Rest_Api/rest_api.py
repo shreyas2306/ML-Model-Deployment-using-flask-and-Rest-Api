@@ -1,9 +1,7 @@
-from flask_restful import reqparse, abort, Resource
+from flask_restful import  Resource
 from source.main.prediction.predict import ModelPrediction
 from resource import config as cf
 
-parser = reqparse.RequestParser()
-parser.add_argument('query')
 
 class PredictDomain(Resource):
 
