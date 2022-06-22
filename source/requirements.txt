@@ -1,4 +1,4 @@
-numpy==1.17.3
+numpy==1.22.0
 pandas==0.25.1
 tika==1.24
 nltk==3.4.5
